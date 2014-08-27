@@ -18,5 +18,16 @@
   "license": "MIT",
   "devDependencies": {
     "expect.js": "^0.3.1"
-  }
+  },
+  "dependencies": {
+    "expect.js": "^0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openscihub/node-osh-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openscihub/node-osh-util/issues"
+  },
+  "homepage": "https://github.com/openscihub/node-osh-util"
 }
