@@ -1,0 +1,22 @@
+{
+  "name": "osh-util",
+  "version": "0.0.0",
+  "description": "openscihub.org - javascript utilities",
+  "main": "index.js",
+  "files": [
+    "parseUri.js",
+    "parallel.js",
+    "pick.js"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -C"
+  },
+  "author": "Carl A. Bauer",
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1"
+  }
+}
