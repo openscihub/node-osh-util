@@ -1,6 +1,6 @@
 {
   "name": "osh-util",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "openscihub.org - javascript utilities",
   "main": "index.js",
   "files": [
