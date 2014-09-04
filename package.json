@@ -1,11 +1,12 @@
 {
   "name": "osh-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "openscihub.org - javascript utilities",
   "main": "index.js",
   "files": [
     "parseUri.js",
     "parallel.js",
+    "series.js",
     "pick.js"
   ],
   "directories": {

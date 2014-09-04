@@ -30,3 +30,29 @@ describe('parallel', function() {
     async = true;
   });
 });
+
+describe('series', function() {
+  var series = require('../series');
+
+  it('should work', function(done) {
+    var v = 0;
+    series(
+      [
+        function(done) {
+          setTimeout(function() {
+            expect(v).to.be(0);
+            v = 1;
+            done();
+          }, 33);
+        },
+        function(done) {
+          setTimeout(function() {
+            expect(v).to.be(1);
+            done();
+          }, 33);
+        }
+      ],
+      done
+    );
+  });
+});
