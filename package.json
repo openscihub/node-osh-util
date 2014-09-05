@@ -7,6 +7,7 @@
     "parseUri.js",
     "parallel.js",
     "series.js",
+    "logger.js",
     "pick.js"
   ],
   "directories": {
